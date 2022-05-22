@@ -19,7 +19,7 @@ public class AddToCartPageTest extends Baseclass{
 	@Parameters("browser")
 	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup(String browserName) {
-		launchBrowser(browserName); 
+		launchBrowser(browserName); //name
 	}
 	
 	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
