@@ -1,135 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="14" total="23" passed="8" failed="1" skipped="0">
+<testng-results ignored="14" total="23" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-22T09:11:39 IST" name="Suite" finished-at="2022-05-22T09:14:08 IST" duration-ms="148692">
+  <suite started-at="2022-05-22T13:40:09 IST" name="Suite" finished-at="2022-05-22T13:43:36 IST" duration-ms="206837">
     <groups>
       <group name="Sanity">
-        <method signature="HomePageTest.orderHistoryandDetailsTest()[pri:0, instance:com.mystroe.testScripts.HomePageTest@65f8f5ae]" name="orderHistoryandDetailsTest" class="com.mystroe.testScripts.HomePageTest"/>
-        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" name="verifyLogo" class="com.mystroe.testScripts.IndexPageTest"/>
-        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" name="verifyTitle" class="com.mystroe.testScripts.IndexPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@5b7a7f33]" name="loginTest" class="com.mystroe.testScripts.LoginPageTest"/>
-        <method signature="OrderPageTest.verifyTotalPrice()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@790da477]" name="verifyTotalPrice" class="com.mystroe.testScripts.OrderPageTest"/>
+        <method signature="HomePageTest.orderHistoryandDetailsTest()[pri:0, instance:com.mystroe.testScripts.HomePageTest@5745ca0e]" name="orderHistoryandDetailsTest" class="com.mystroe.testScripts.HomePageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" name="verifyLogo" class="com.mystroe.testScripts.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" name="verifyTitle" class="com.mystroe.testScripts.IndexPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@17bffc17]" name="loginTest" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="OrderPageTest.verifyTotalPrice()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@6e535154]" name="verifyTotalPrice" class="com.mystroe.testScripts.OrderPageTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="AccountCreationPageTest.verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystroe.testScripts.AccountCreationPageTest@5fb759d6]" name="verifyCreateAccountPageTest" class="com.mystroe.testScripts.AccountCreationPageTest"/>
-        <method signature="AddToCartPageTest.addToCartTest()[pri:0, instance:com.mystroe.testScripts.AddToCartPageTest@431cd9b2]" name="addToCartTest" class="com.mystroe.testScripts.AddToCartPageTest"/>
-        <method signature="EndToEndTest.endToEndTest()[pri:0, instance:com.mystroe.testScripts.EndToEndTest@4b8d604b]" name="endToEndTest" class="com.mystroe.testScripts.EndToEndTest"/>
-        <method signature="HomePageTest.orderHistoryandDetailsTest()[pri:0, instance:com.mystroe.testScripts.HomePageTest@65f8f5ae]" name="orderHistoryandDetailsTest" class="com.mystroe.testScripts.HomePageTest"/>
-        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" name="verifyLogo" class="com.mystroe.testScripts.IndexPageTest"/>
-        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" name="verifyTitle" class="com.mystroe.testScripts.IndexPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@5b7a7f33]" name="loginTest" class="com.mystroe.testScripts.LoginPageTest"/>
-        <method signature="OrderPageTest.verifyTotalPrice()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@790da477]" name="verifyTotalPrice" class="com.mystroe.testScripts.OrderPageTest"/>
-        <method signature="SearchResultPageTest.productAvailabilityTest()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@4722ef0c]" name="productAvailabilityTest" class="com.mystroe.testScripts.SearchResultPageTest"/>
+        <method signature="AccountCreationPageTest.verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystroe.testScripts.AccountCreationPageTest@338fc1d8]" name="verifyCreateAccountPageTest" class="com.mystroe.testScripts.AccountCreationPageTest"/>
+        <method signature="AddToCartPageTest.addToCartTest()[pri:0, instance:com.mystroe.testScripts.AddToCartPageTest@3ad83a66]" name="addToCartTest" class="com.mystroe.testScripts.AddToCartPageTest"/>
+        <method signature="EndToEndTest.endToEndTest()[pri:0, instance:com.mystroe.testScripts.EndToEndTest@4722ef0c]" name="endToEndTest" class="com.mystroe.testScripts.EndToEndTest"/>
+        <method signature="HomePageTest.orderHistoryandDetailsTest()[pri:0, instance:com.mystroe.testScripts.HomePageTest@5745ca0e]" name="orderHistoryandDetailsTest" class="com.mystroe.testScripts.HomePageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" name="verifyLogo" class="com.mystroe.testScripts.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" name="verifyTitle" class="com.mystroe.testScripts.IndexPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@17bffc17]" name="loginTest" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="OrderPageTest.verifyTotalPrice()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@6e535154]" name="verifyTotalPrice" class="com.mystroe.testScripts.OrderPageTest"/>
+        <method signature="SearchResultPageTest.productAvailabilityTest()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@eadd4fb]" name="productAvailabilityTest" class="com.mystroe.testScripts.SearchResultPageTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" name="verifyLogo" class="com.mystroe.testScripts.IndexPageTest"/>
-        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" name="verifyTitle" class="com.mystroe.testScripts.IndexPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@5b7a7f33]" name="loginTest" class="com.mystroe.testScripts.LoginPageTest"/>
-        <method signature="OrderPageTest.verifyTotalPrice()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@790da477]" name="verifyTotalPrice" class="com.mystroe.testScripts.OrderPageTest"/>
-        <method signature="SearchResultPageTest.productAvailabilityTest()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@4722ef0c]" name="productAvailabilityTest" class="com.mystroe.testScripts.SearchResultPageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" name="verifyLogo" class="com.mystroe.testScripts.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" name="verifyTitle" class="com.mystroe.testScripts.IndexPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@17bffc17]" name="loginTest" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="OrderPageTest.verifyTotalPrice()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@6e535154]" name="verifyTotalPrice" class="com.mystroe.testScripts.OrderPageTest"/>
+        <method signature="SearchResultPageTest.productAvailabilityTest()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@eadd4fb]" name="productAvailabilityTest" class="com.mystroe.testScripts.SearchResultPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-05-22T09:11:39 IST" name="Regression" finished-at="2022-05-22T09:14:08 IST" duration-ms="148692">
+    <test started-at="2022-05-22T13:40:09 IST" name="Test" finished-at="2022-05-22T13:43:36 IST" duration-ms="206837">
       <class name="com.mystroe.testScripts.OrderPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.OrderPageTest@790da477]" started-at="2022-05-22T09:11:58 IST" name="setup" finished-at="2022-05-22T09:12:07 IST" duration-ms="9559" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.OrderPageTest@6e535154]" started-at="2022-05-22T13:41:48 IST" name="setup" finished-at="2022-05-22T13:41:59 IST" duration-ms="10366" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTotalPrice()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@790da477]" started-at="2022-05-22T09:12:07 IST" name="verifyTotalPrice" finished-at="2022-05-22T09:12:43 IST" duration-ms="35508" status="PASS">
+        <test-method signature="verifyTotalPrice()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@6e535154]" started-at="2022-05-22T13:41:59 IST" name="verifyTotalPrice" finished-at="2022-05-22T13:42:14 IST" duration-ms="15529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTotalPrice -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@790da477]" started-at="2022-05-22T09:12:43 IST" name="tearDown" finished-at="2022-05-22T09:12:43 IST" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.OrderPageTest@6e535154]" started-at="2022-05-22T13:42:15 IST" name="tearDown" finished-at="2022-05-22T13:42:15 IST" duration-ms="644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystroe.testScripts.OrderPageTest -->
       <class name="com.mystroe.testScripts.IndexPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" started-at="2022-05-22T09:11:39 IST" name="setup" finished-at="2022-05-22T09:11:51 IST" duration-ms="11433" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" started-at="2022-05-22T13:41:09 IST" name="setup" finished-at="2022-05-22T13:41:17 IST" duration-ms="8747" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" started-at="2022-05-22T09:11:39 IST" name="setup" finished-at="2022-05-22T09:11:50 IST" duration-ms="10717" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" started-at="2022-05-22T09:11:50 IST" name="verifyTitle" finished-at="2022-05-22T09:11:50 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.mystroe.pageObjects.IndexPage.getMyStroeTitle()" because "this.indexPage" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.mystroe.pageObjects.IndexPage.getMyStroeTitle()" because "this.indexPage" is null
-at com.mystroe.testScripts.IndexPageTest.verifyTitle(IndexPageTest.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:831)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method signature="verifyLogo()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" started-at="2022-05-22T09:11:51 IST" name="verifyLogo" finished-at="2022-05-22T09:11:51 IST" duration-ms="201" status="PASS">
+        <test-method signature="verifyLogo()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" started-at="2022-05-22T13:41:17 IST" name="verifyLogo" finished-at="2022-05-22T13:41:17 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" started-at="2022-05-22T09:11:55 IST" name="tearDown" finished-at="2022-05-22T09:11:56 IST" duration-ms="1177" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" started-at="2022-05-22T13:41:18 IST" name="tearDown" finished-at="2022-05-22T13:41:18 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@38467116]" started-at="2022-05-22T09:11:55 IST" name="tearDown" finished-at="2022-05-22T09:11:58 IST" duration-ms="2102" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" started-at="2022-05-22T13:41:18 IST" name="setup" finished-at="2022-05-22T13:41:27 IST" duration-ms="8998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" started-at="2022-05-22T13:41:27 IST" name="verifyTitle" finished-at="2022-05-22T13:41:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.IndexPageTest@3cce5371]" started-at="2022-05-22T13:41:27 IST" name="tearDown" finished-at="2022-05-22T13:41:28 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystroe.testScripts.IndexPageTest -->
       <class name="com.mystroe.testScripts.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@5b7a7f33]" started-at="2022-05-22T09:11:58 IST" name="setup" finished-at="2022-05-22T09:12:08 IST" duration-ms="10608" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@17bffc17]" started-at="2022-05-22T13:41:28 IST" name="setup" finished-at="2022-05-22T13:41:38 IST" duration-ms="10191" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@5b7a7f33]" started-at="2022-05-22T09:12:08 IST" name="loginTest" data-provider="Credentials" finished-at="2022-05-22T09:12:28 IST" duration-ms="19878" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@17bffc17]" started-at="2022-05-22T13:41:38 IST" name="loginTest" data-provider="Credentials" finished-at="2022-05-22T13:41:48 IST" duration-ms="9715" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,95 +120,95 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@5b7a7f33]" started-at="2022-05-22T09:12:29 IST" name="tearDown" finished-at="2022-05-22T09:12:31 IST" duration-ms="2388" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@17bffc17]" started-at="2022-05-22T13:41:48 IST" name="tearDown" finished-at="2022-05-22T13:41:48 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystroe.testScripts.LoginPageTest -->
       <class name="com.mystroe.testScripts.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.HomePageTest@65f8f5ae]" started-at="2022-05-22T09:11:39 IST" name="setup" finished-at="2022-05-22T09:11:48 IST" duration-ms="8557" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.HomePageTest@5745ca0e]" started-at="2022-05-22T13:40:26 IST" name="setup" finished-at="2022-05-22T13:40:41 IST" duration-ms="14857" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="orderHistoryandDetailsTest()[pri:0, instance:com.mystroe.testScripts.HomePageTest@65f8f5ae]" started-at="2022-05-22T09:11:48 IST" name="orderHistoryandDetailsTest" finished-at="2022-05-22T09:11:58 IST" duration-ms="10380" status="PASS">
+        <test-method signature="orderHistoryandDetailsTest()[pri:0, instance:com.mystroe.testScripts.HomePageTest@5745ca0e]" started-at="2022-05-22T13:40:41 IST" name="orderHistoryandDetailsTest" finished-at="2022-05-22T13:40:50 IST" duration-ms="9802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryandDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.HomePageTest@65f8f5ae]" started-at="2022-05-22T09:12:06 IST" name="tearDown" finished-at="2022-05-22T09:12:08 IST" duration-ms="1954" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.HomePageTest@5745ca0e]" started-at="2022-05-22T13:40:51 IST" name="tearDown" finished-at="2022-05-22T13:40:52 IST" duration-ms="1165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystroe.testScripts.HomePageTest -->
       <class name="com.mystroe.testScripts.AddToCartPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.AddToCartPageTest@431cd9b2]" started-at="2022-05-22T09:11:39 IST" name="setup" finished-at="2022-05-22T09:11:51 IST" duration-ms="12031" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.AddToCartPageTest@3ad83a66]" started-at="2022-05-22T13:40:52 IST" name="setup" finished-at="2022-05-22T13:41:02 IST" duration-ms="10178" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addToCartTest()[pri:0, instance:com.mystroe.testScripts.AddToCartPageTest@431cd9b2]" started-at="2022-05-22T09:11:51 IST" name="addToCartTest" finished-at="2022-05-22T09:12:05 IST" duration-ms="13938" status="PASS">
+        <test-method signature="addToCartTest()[pri:0, instance:com.mystroe.testScripts.AddToCartPageTest@3ad83a66]" started-at="2022-05-22T13:41:02 IST" name="addToCartTest" finished-at="2022-05-22T13:41:08 IST" duration-ms="6083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.AddToCartPageTest@431cd9b2]" started-at="2022-05-22T09:12:16 IST" name="tearDown" finished-at="2022-05-22T09:12:18 IST" duration-ms="2012" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.AddToCartPageTest@3ad83a66]" started-at="2022-05-22T13:41:08 IST" name="tearDown" finished-at="2022-05-22T13:41:09 IST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystroe.testScripts.AddToCartPageTest -->
       <class name="com.mystroe.testScripts.SearchResultPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@4722ef0c]" started-at="2022-05-22T09:11:39 IST" name="beforeSuite" finished-at="2022-05-22T09:11:39 IST" duration-ms="348" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@eadd4fb]" started-at="2022-05-22T13:40:09 IST" name="beforeSuite" finished-at="2022-05-22T13:40:09 IST" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@4722ef0c]" started-at="2022-05-22T09:11:39 IST" name="setup" finished-at="2022-05-22T09:11:51 IST" duration-ms="12167" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@eadd4fb]" started-at="2022-05-22T13:40:09 IST" name="setup" finished-at="2022-05-22T13:40:23 IST" duration-ms="13626" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productAvailabilityTest()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@4722ef0c]" started-at="2022-05-22T09:11:51 IST" name="productAvailabilityTest" finished-at="2022-05-22T09:11:55 IST" duration-ms="4104" status="PASS">
+        <test-method signature="productAvailabilityTest()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@eadd4fb]" started-at="2022-05-22T13:40:23 IST" name="productAvailabilityTest" finished-at="2022-05-22T13:40:25 IST" duration-ms="2176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productAvailabilityTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@4722ef0c]" started-at="2022-05-22T09:12:05 IST" name="tearDown" finished-at="2022-05-22T09:12:09 IST" duration-ms="3752" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@eadd4fb]" started-at="2022-05-22T13:40:26 IST" name="tearDown" finished-at="2022-05-22T13:40:26 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@4722ef0c]" started-at="2022-05-22T09:14:08 IST" name="afterSuite" finished-at="2022-05-22T09:14:08 IST" duration-ms="429" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystroe.testScripts.SearchResultPageTest@eadd4fb]" started-at="2022-05-22T13:43:36 IST" name="afterSuite" finished-at="2022-05-22T13:43:37 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.mystroe.testScripts.SearchResultPageTest -->
       <class name="com.mystroe.testScripts.AccountCreationPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.AccountCreationPageTest@5fb759d6]" started-at="2022-05-22T09:12:08 IST" name="setup" finished-at="2022-05-22T09:12:18 IST" duration-ms="10188" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.AccountCreationPageTest@338fc1d8]" started-at="2022-05-22T13:42:15 IST" name="setup" finished-at="2022-05-22T13:42:25 IST" duration-ms="10119" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystroe.testScripts.AccountCreationPageTest@5fb759d6]" started-at="2022-05-22T09:12:18 IST" name="verifyCreateAccountPageTest" data-provider="email" finished-at="2022-05-22T09:12:33 IST" duration-ms="15030" status="PASS">
+        <test-method signature="verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystroe.testScripts.AccountCreationPageTest@338fc1d8]" started-at="2022-05-22T13:42:25 IST" name="verifyCreateAccountPageTest" data-provider="email" finished-at="2022-05-22T13:42:30 IST" duration-ms="5011" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -244,32 +219,32 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateAccountPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.AccountCreationPageTest@5fb759d6]" started-at="2022-05-22T09:12:33 IST" name="tearDown" finished-at="2022-05-22T09:12:34 IST" duration-ms="524" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.AccountCreationPageTest@338fc1d8]" started-at="2022-05-22T13:42:31 IST" name="tearDown" finished-at="2022-05-22T13:42:31 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystroe.testScripts.AccountCreationPageTest -->
       <class name="com.mystroe.testScripts.EndToEndTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.EndToEndTest@4b8d604b]" started-at="2022-05-22T09:12:09 IST" name="setup" finished-at="2022-05-22T09:12:21 IST" duration-ms="11611" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.EndToEndTest@4722ef0c]" started-at="2022-05-22T13:42:31 IST" name="setup" finished-at="2022-05-22T13:42:41 IST" duration-ms="10082" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="endToEndTest()[pri:0, instance:com.mystroe.testScripts.EndToEndTest@4b8d604b]" started-at="2022-05-22T09:12:21 IST" name="endToEndTest" finished-at="2022-05-22T09:14:07 IST" duration-ms="106666" status="PASS">
+        <test-method signature="endToEndTest()[pri:0, instance:com.mystroe.testScripts.EndToEndTest@4722ef0c]" started-at="2022-05-22T13:42:41 IST" name="endToEndTest" finished-at="2022-05-22T13:43:36 IST" duration-ms="54961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEndTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.EndToEndTest@4b8d604b]" started-at="2022-05-22T09:14:07 IST" name="tearDown" finished-at="2022-05-22T09:14:08 IST" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.EndToEndTest@4722ef0c]" started-at="2022-05-22T13:43:36 IST" name="tearDown" finished-at="2022-05-22T13:43:36 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystroe.testScripts.EndToEndTest -->
-    </test> <!-- Regression -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -7,14 +7,14 @@
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="Chrome"></parameter>
 		<classes>
-			<class name="com.mystroe.testScripts.SearchResultPageTest" />
-			<class name="com.mystroe.testScripts.HomePageTest" />
-			<class name="com.mystroe.testScripts.AddToCartPageTest" />
-			<class name="com.mystroe.testScripts.IndexPageTest" />
-			<class name="com.mystroe.testScripts.LoginPageTest" />
-			<class name="com.mystroe.testScripts.OrderPageTest" />
-			<class name="com.mystroe.testScripts.AccountCreationPageTest" />
-			<class name="com.mystroe.testScripts.EndToEndTest" />
+			<class name="com.mystroe.testScripts.SearchResultPageTest"/>
+			<class name="com.mystroe.testScripts.HomePageTest"/>
+			<class name="com.mystroe.testScripts.AddToCartPageTest"/>
+			<class name="com.mystroe.testScripts.IndexPageTest"/>
+			<class name="com.mystroe.testScripts.LoginPageTest"/>
+			<class name="com.mystroe.testScripts.OrderPageTest"/>
+			<class name="com.mystroe.testScripts.AccountCreationPageTest"/>
+			<class name="com.mystroe.testScripts.EndToEndTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
